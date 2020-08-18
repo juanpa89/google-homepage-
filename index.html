@@ -6,30 +6,39 @@
     </head>
     <body>
         <header>
-            <a>Gmail</a>
-            <a>Images</a>
-            <img class="app logo" src="utilities/App-logo.png">
-            <img class="profile-logo" src="utilities/Perfil-logo.png">
+            <a id="gmail-link">Gmail</a>
+            <a id="image-link">Images</a>
+            <img id="app-logo" class="small-logo" src="utilities/App-logo.png" alt="Tiby application logo">
+            <button id="log-in" class="button">Log In</button>
         </header>
         <main>
-            <img class="main-logo" src="utilities/googlelogo_color_272x92dp.png" 
+            <img  id="main-logo" class="main-logo" src="utilities/googlelogo_color_272x92dp.png" 
             alt="Google logo">
-            <form>
-                <textarea id="search-bar" name="search-bar"></textarea>
-                <button class="button" >Google Search</button>
-                <button class="button" >I'm Feeling Lucky</button>
+            <form class="search">
+                <input id="search-bar" name="search-bar"></input>
+                <div class="buttons">
+                    <button id="google-button">Google Search</button>
+                    <button id="lucky-button">I'm Feeling Lucky</button>
+                </div>
             </form>
-            <p>Google offered in: <a href="">Español (Latinoamérica)</a></p>
         </main>
         <footer>
-            <p>Country</p>
-            <a>Advertising</a>
-            <a>Business</a>
-            <a>About</a>
-            <a>How Search Works</a>
-            <a>Privacy</a>
-            <a>Terms</a>
-            <a>Settings</a>
+            <div class="country">
+                <p>Country</p>
+            </div>
+            <div class=links>
+                <div class="link-start">
+                    <a>Advertising</a>
+                    <a>Business</a>
+                    <a>About</a>
+                    <a>How Search Works</a>
+                </div>
+                <div class="link-end">
+                    <a>Privacy</a>
+                    <a>Terms</a>
+                    <a>Settings</a>
+                </div>
+            </div>
         </footer>
        
     </body>
